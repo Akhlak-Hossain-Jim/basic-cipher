@@ -14,7 +14,7 @@ export default function Header() {
 }
 
 const Container = styled.header`
-  padding: 24px;
+  padding: 12px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
