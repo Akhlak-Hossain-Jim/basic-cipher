@@ -62,7 +62,7 @@ export default function Decrypt() {
             />
           </div>
           <div className="input_values">
-            <label htmlFor="Sentence">Sentence to Encrypt:</label>
+            <label htmlFor="Sentence">Sentence to Decrypt:</label>
             <textarea
               name="Sentence"
               id="Sentence"
