@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import About from "./About";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
       <div className="header_logo">
         <img src="/logo.svg" alt="JIM Cipher Logo" />
       </div>
+      <About />
     </Container>
   );
 }
@@ -14,6 +16,7 @@ export default function Header() {
 const Container = styled.header`
   padding: 24px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   .header_logo {
